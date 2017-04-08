@@ -118,7 +118,7 @@ My final model consisted of the following layers:
 The model was training using AdamOptimer with a Batch size of 100 and 60 epoches. I experimented with 0.001, 0.0007, 0.0008 and finally 0.0009 as the learning rate. 
 
 #### 4. The Solution
-I started with the LeNet model architecture We built as part of the Lenet lab in Udacity Self Driving Car Nano Degree program. I then changed the architecture to match  Sermanet & LeCunn's layered architecture. The link to the paper can be found in the previous section "The Model". I initially used the training and test data provided by Udacity for this. But due to the unbalabce of the training set, the initial few runs of the model were not accurate. I used several Augmentation techniques as described in the earlier to generate new training data nd make the training set more balanced. This lead to a better performance of the model at the end. My Final Validation accuracy came to 98.2%
+I started with the LeNet model architecture We built as part of the Lenet lab in Udacity Self Driving Car Nano Degree program. I then changed the architecture to match  Sermanet & LeCunn's layered architecture. The link to the paper can be found in the previous section "The Model". I initially used the training and test data provided by Udacity for this. But due to the unbalabce of the training set, the initial few runs of the model were not accurate. I used several Augmentation techniques as described in the earlier to generate new training data nd make the training set more balanced. This lead to a better performance of the model at the end. My Final Validation accuracy came to 99.2%
 
 My final model results were:
 * training set accuracy of 99.2
@@ -133,7 +133,7 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image7] ![alt text][image8] ![alt text][image9] 
 ![alt text][image10] ![alt text][image11] ![alt text][image12]
 
-
+While these photos are much similar to what we discovered in the training set, I included few images that are more like a synthetic look than a real life image. For example, Traffic Sign 2 nd 3 are graphic designed images. These has high contrast than the original images you find in training set. Traffic Sign 4 has less contrast as the background is also similar to the color of the sign. These qualities of the images will likely make the prediction harder for the model. 
 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
@@ -151,6 +151,8 @@ Here are five German traffic signs that I found on the web:
 
 
 The model was able to correctly guess all 6 traffic signs, which gives an accuracy of 100%. 
+
+As you can see, the model performed really well (100% accuracy on the New images from Web) than the test set (91%). 
 
 #### Here is how the model predicted the correct value for the first image in the set. 
 
