@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 [image9]: ./WebImages/3.png "Traffic Sign 3"
 [image10]: ./WebImages/4.png "Traffic Sign 4"
 [image11]: ./WebImages/5.png "Traffic Sign 5"
-[image12]: ./WebImages/5.png "Traffic Sign 6"
+[image12]: ./WebImages/6.png "Traffic Sign 6"
 [image13]: ./Images/predictions.png "predictions"
 
 ## Rubric Points
@@ -132,6 +132,8 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image7] ![alt text][image8] ![alt text][image9] 
 ![alt text][image10] ![alt text][image11] ![alt text][image12]
+
+
 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
